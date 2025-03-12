@@ -6,4 +6,3 @@ add_executable(q_01_exe "main.cpp" "question1.cpp")
 
 
 
-

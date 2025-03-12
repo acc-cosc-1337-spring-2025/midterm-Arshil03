@@ -2,11 +2,11 @@
 #include "catch.hpp"
 #include "question1.h"
 
-TEST_CASE("Verify Test Configuration", "verification") {
+TEST_CASE("Verify Test Configuration", "[verification]") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+TEST_CASE("Test test_config function")
 {
 	REQUIRE(test_config() == true);
 }
