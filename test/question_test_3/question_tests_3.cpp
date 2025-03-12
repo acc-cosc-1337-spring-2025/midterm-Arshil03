@@ -12,4 +12,5 @@ TEST_CASE("Fibonacci Number Calculation") {
 TEST_CASE("Edge Cases") {
     REQUIRE(get_fib_number(1) == 1);
     REQUIRE(get_fib_number(0) == 0);
+    
 }
